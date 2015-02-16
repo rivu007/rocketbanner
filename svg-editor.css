@@ -44,7 +44,7 @@ select {
 	margin-top: 4px;
 }
 
-#header_panel{
+#header_panel {
     display: inline-table-cell;
     height: 90px;
     right: 10px;
@@ -52,7 +52,7 @@ select {
     overflow: auto;
 }
 
-#sub_header_panel{
+#sub_header_panel {
     display: inline-table-cell;
     margin-top:5px;
     height: 30px;
@@ -61,6 +61,45 @@ select {
     border: 1px solid #c3cce3;
     overflow: auto;
 }
+
+.menu_items {
+    float: left;
+    position: relative;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #4d7aee;
+    /*text-align: center;*/
+    vertical-align: middle;
+}
+
+.menu_items_view_Tutorial {
+    width: 100px;
+}
+
+.menu_items_load_previous_design {
+    width: 180px;
+}
+
+.menu_items_size_orientation {
+    width: 580px;
+}
+
+.menu_text_labels{
+    text-align:left;
+    vertical-align:middle;
+    display:inline-block;
+    margin: 5px;
+    width: 100%;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.menu_text_labels_quarter {
+    width: 27% !important;
+}
+
 
 .label_primary, .label_primary_link{
     text-align:center;
@@ -1035,15 +1074,15 @@ span.zoom_tool {
 		height: 71px;
 	}
 	#workarea, #sidepanels {
-		top: 70px;
+		top: 141px;
 	}
 	#rulers #ruler_corner,
 	#rulers #ruler_x, #tools_left {
-		top: 71px;
+		top: 141px;
 	}
 
 	#rulers #ruler_y {
-		top: 86px;
+		top: 156px;
 	}
 
 	#cur_context_panel {

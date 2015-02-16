@@ -1,5 +1,5 @@
 ﻿body {
-	background: #D0D0D0;
+	background: #ffffff;
 }
 
 html, body, div{
@@ -42,6 +42,54 @@ hr {
 
 select {
 	margin-top: 4px;
+}
+
+#header_panel{
+    display: inline-table-cell;
+    height: 90px;
+    right: 10px;
+    border: 1px solid #000;
+    overflow: auto;
+}
+
+#sub_header_panel{
+    display: inline-table-cell;
+    margin-top:5px;
+    height: 30px;
+    right: 10px;
+    background-color: #577492;
+    border: 1px solid #c3cce3;
+    overflow: auto;
+}
+
+.label_primary, .label_primary_link{
+    text-align:center;
+    vertical-align:middle;
+    display:inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight:bold;
+}
+
+.label_primary_link{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.text_primary{
+    text-align:center;
+    vertical-align:middle;
+    display:inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    width: 80px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight:bold;
 }
 
 #svgroot {

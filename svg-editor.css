@@ -207,16 +207,16 @@ select {
 }
 
 #workarea {
-	display: inline-table-cell;
-	position:absolute;
-	top: 140px;
-	left: 100px;
-	bottom: 40px;
-	right: 14px;
-	background-color: #A0A0A0;
-	border: 1px solid #808080;
-	overflow: auto;
-	text-align: center;
+	display: inline-table-cell !important;
+	position:absolute !important;
+	top: 140px !important;
+	left: 100px !important;
+	bottom: 40px !important;
+	right: 14px !important;
+	background-color: #A0A0A0 !important;
+	border: 1px solid #808080 !important;
+	overflow: auto !important;
+	text-align: center !important;
 }
 
 #sidepanels {
@@ -233,6 +233,7 @@ select {
 	border-left: none;
 	overflow-x:hidden;
 	overflow-y:visible;
+    background-color: #D0D0D0;
 }
 
 #layerpanel {
@@ -537,15 +538,15 @@ div.palette_item:first-child {
 }
 
 #tools_left {
-	position: absolute;
-	border-right: none;
-	width: 94px;
-	top: 141px;
-	left: 1px;
-	margin-top: -2px;
-	padding-left: 2px;
-	background: #D0D0D0; /* Needed so flyout icons don't appear on the left */
-	z-index: 4;
+	position: absolute !important;
+	border-right: none !important;
+	width: 94px !important;
+	top: 141px !important;
+	left: 1px !important;
+	margin-top: -2px !important;
+	padding-left: 2px !important;
+	background: #D0D0D0 !important; /* Needed so flyout icons don't appear on the left */
+	z-index: 4 !important;
 }
 
 #workarea.wireframe #svgcontent * {
